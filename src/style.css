@@ -1,0 +1,14 @@
+.accordion-ele{
+    background-color: aliceblue;
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+
+.accordion-ele button{
+    float: right;
+}
+
+.accordion-ele p{
+    width: 50ch;
+}
