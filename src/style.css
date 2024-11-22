@@ -12,3 +12,7 @@
 .accordion-ele p{
     width: 50ch;
 }
+
+.active{
+    color: rgb(241, 218, 6);
+}
