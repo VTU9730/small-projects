@@ -1,3 +1,8 @@
+/* global */
+
+*{
+    scroll-behavior: smooth;
+}
 /* Accordion */
 .accordion-ele{
     background-color: aliceblue;
@@ -38,4 +43,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* load more products */
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+
+.product-div{
+    border: solid 1px grey;
+    box-shadow: -10px 10px 9px grey;
+}
+
+.product-div:hover{
+    border: solid 1px grey;
+    box-shadow: -10px 10px 9px grey;
+    border-radius: 20px;
+    transform:scale(1.05)
 }
