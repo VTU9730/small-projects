@@ -1,0 +1,27 @@
+export const sideMenu = [
+    {
+        "label":"Home",
+    },
+    {
+        "label":"Family1",
+        "children":[
+            {
+                "label":"Venkat"
+            },
+            {
+                "label":"Saradha"
+            }
+        ]
+    },
+    {
+        "label":"Family2",
+        "children":[
+            {
+                "label":"Madhu"
+            },
+            {
+                "label":"Haritha"
+            }
+        ]
+    }
+]
