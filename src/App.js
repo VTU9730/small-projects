@@ -9,6 +9,7 @@ import SideMenu from './components/SideMenu';
 import QrCodeComponent from './components/QrCodeComponent';
 import Theme from './components/Theme';
 import ScroleIndicator from './components/ScrolIndicator'
+import CustomTabs from './components/CustomTabs';
 function App() {
   return (
     <div className='app'>
@@ -20,7 +21,8 @@ function App() {
       {/* <SideMenu /> */}
       {/* <QrCodeComponent /> */}
       {/* <Theme /> */}
-      <ScroleIndicator />
+      {/* <ScroleIndicator /> */}
+      <CustomTabs />
     </div>
   );
 }
