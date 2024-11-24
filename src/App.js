@@ -8,6 +8,7 @@ import LoadMoreData from './components/LoadMoreData';
 import SideMenu from './components/SideMenu';
 import QrCodeComponent from './components/QrCodeComponent';
 import Theme from './components/Theme';
+import ScroleIndicator from './components/ScrolIndicator'
 function App() {
   return (
     <div className='app'>
@@ -18,7 +19,8 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <SideMenu /> */}
       {/* <QrCodeComponent /> */}
-      <Theme />
+      {/* <Theme /> */}
+      <ScroleIndicator />
     </div>
   );
 }

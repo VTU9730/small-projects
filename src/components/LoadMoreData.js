@@ -35,9 +35,6 @@ const LoadMoreData = () => {
         return <h1>Loading...</h1>
     }
 
-    console.log("products",products,products.length);
-    
-
     return(
         <main>
             <h1>Load More Data</h1>
