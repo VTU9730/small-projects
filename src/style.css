@@ -74,3 +74,26 @@
     height:100%;
     background-color: aliceblue;
 }
+
+/* QR container */
+
+.qr-container{
+    width:400px;
+    text-align: center;
+    margin: 20px auto;
+    background-color:aliceblue;
+    padding: 30px 15px;
+}
+
+.qr-container button{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    background-color: white;
+    border: solid 1px grey;
+}
+
+.qr-container input{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: solid 1px grey;
+}

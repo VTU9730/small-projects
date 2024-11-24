@@ -6,6 +6,7 @@ import './style.css'
 import StarRating from './components/StarRating';
 import LoadMoreData from './components/LoadMoreData';
 import SideMenu from './components/SideMenu';
+import QrCodeComponent from './components/QrCodeComponent';
 function App() {
   return (
     <div className='app'>
@@ -14,7 +15,8 @@ function App() {
       {/* <StarRating /> */}
       {/* <Slicer /> */}
       {/* <LoadMoreData /> */}
-      <SideMenu />
+      {/* <SideMenu /> */}
+      <QrCodeComponent />
     </div>
   );
 }
