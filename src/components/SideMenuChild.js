@@ -1,3 +1,5 @@
+import SideMenuParent from "./SideMenuParent"
+
 function SideMenuChild({children}) {
   return (
     <div>
@@ -5,6 +7,9 @@ function SideMenuChild({children}) {
         return(
             <div>
             <p>{children.label}</p>
+            {
+              children.children && <SideMenuParent parent={children.children} />
+            }
             </div>
         )
     })}

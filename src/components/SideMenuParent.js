@@ -16,9 +16,9 @@ function SideMenuParent({parent}) {
             parent && parent.map((parent,index)=>{
                 return(
                     <div key={index}>
-                        <span>{parent.label}</span><button onClick={() => handleClick(index)}>{show?'-':'+'}</button>
+                        <span>{parent.label}</span><button onClick={() => handleClick(index)}>{show && current == index ?'-':'+'}</button>
                         {parent && parent.children?(
-                            show && current ===index && <SideMenuChild children={parent.children} />
+                            show && current === index && <SideMenuChild children={parent.children} />
                         ):null}
                     </div>
                 )

@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import Accordion from './components/Accordion';
 import RandomBackgroundColor from './components/RandomBackgroundColor'
 import Slicer from './components/Slicer';
@@ -9,7 +8,7 @@ import LoadMoreData from './components/LoadMoreData';
 import SideMenu from './components/SideMenu';
 function App() {
   return (
-    <div className="App">
+    <div className='app'>
       {/* <Accordion /> */}
       {/* <RandomBackgroundColor /> */}
       {/* <StarRating /> */}

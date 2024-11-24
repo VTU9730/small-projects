@@ -4,8 +4,7 @@ const SideMenu = () => {
     console.log("sideMenu",sideMenu);
     
     return(
-        <div>
-        <h1>Sidemenu</h1>
+        <div className="sidemenu">
          <SideMenuParent parent={sideMenu} />
         </div>
     )
