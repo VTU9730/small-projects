@@ -157,3 +157,21 @@
 .tab-name:hover{
     background-color: rgb(229, 241, 252);
 }
+
+/* Modal */
+.modal-container{
+    width:100vw;
+    height:100vh;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.modal{
+    display: flex;
+    justify-content:space-between;
+    border: solid 1px grey;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin: 30px auto;
+}

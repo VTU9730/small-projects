@@ -10,6 +10,7 @@ import QrCodeComponent from './components/QrCodeComponent';
 import Theme from './components/Theme';
 import ScroleIndicator from './components/ScrolIndicator'
 import CustomTabs from './components/CustomTabs';
+import Modal from './components/Modal';
 function App() {
   return (
     <div className='app'>
@@ -22,7 +23,8 @@ function App() {
       {/* <QrCodeComponent /> */}
       {/* <Theme /> */}
       {/* <ScroleIndicator /> */}
-      <CustomTabs />
+      {/* <CustomTabs /> */}
+      <Modal />
     </div>
   );
 }
