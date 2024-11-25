@@ -11,6 +11,7 @@ import Theme from './components/Theme';
 import ScroleIndicator from './components/ScrolIndicator'
 import CustomTabs from './components/CustomTabs';
 import Modal from './components/Modal';
+import GithubProfile from './components/GithubProfile'
 function App() {
   return (
     <div className='app'>
@@ -24,7 +25,8 @@ function App() {
       {/* <Theme /> */}
       {/* <ScroleIndicator /> */}
       {/* <CustomTabs /> */}
-      <Modal />
+      {/* <Modal /> */}
+      <GithubProfile />
     </div>
   );
 }

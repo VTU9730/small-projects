@@ -175,3 +175,35 @@
     padding: 10px;
     margin: 30px auto;
 }
+
+/* GithubProfile */
+.github-profile-container{
+    width:80vw;
+    height:85vh;
+    background-color: aliceblue;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.github-profile-container button{
+    padding: 10px 15px;
+    background-color: white;
+    border: solid 1px grey;
+}
+
+.github-profile-container input{
+    margin: auto 10px;
+    padding: 10px 5px;
+    border: solid 1px grey;
+}
+
+.github-profile-container img{
+    border-radius: 40%;
+}
+
+.profile-section{
+    margin: 30px 0;
+}
