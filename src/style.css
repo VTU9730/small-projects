@@ -207,3 +207,29 @@
 .profile-section{
     margin: 30px 0;
 }
+
+/* Autocomplete */
+
+.autocomplete{
+    text-align: center;
+    background-color: aliceblue;
+    min-height: 600px;
+}
+
+.autocomplete .button{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    background-color: white;
+    border: solid 1px grey;
+}
+
+.autocomplete button{
+    background-color: aliceblue;
+    border:none;
+}
+
+.autocomplete input{
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: solid 1px grey;
+}

@@ -12,6 +12,7 @@ import ScroleIndicator from './components/ScrolIndicator'
 import CustomTabs from './components/CustomTabs';
 import Modal from './components/Modal';
 import GithubProfile from './components/GithubProfile'
+import AutoComplete from './components/AutoComplete';
 function App() {
   return (
     <div className='app'>
@@ -26,7 +27,8 @@ function App() {
       {/* <ScroleIndicator /> */}
       {/* <CustomTabs /> */}
       {/* <Modal /> */}
-      <GithubProfile />
+      {/* <GithubProfile /> */}
+      <AutoComplete />
     </div>
   );
 }
