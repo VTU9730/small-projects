@@ -13,6 +13,7 @@ import CustomTabs from './components/CustomTabs';
 import Modal from './components/Modal';
 import GithubProfile from './components/GithubProfile'
 import AutoComplete from './components/AutoComplete';
+import Game from './components/Game';
 function App() {
   return (
     <div className='app'>
@@ -28,7 +29,8 @@ function App() {
       {/* <CustomTabs /> */}
       {/* <Modal /> */}
       {/* <GithubProfile /> */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+      <Game />
     </div>
   );
 }
