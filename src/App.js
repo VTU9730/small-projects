@@ -14,6 +14,7 @@ import Modal from './components/Modal';
 import GithubProfile from './components/GithubProfile'
 import AutoComplete from './components/AutoComplete';
 import Game from './components/Game';
+import ScrollToTopAndBottom from './components/ScrollToTopAndBottom'
 function App() {
   return (
     <div className='app'>
@@ -30,7 +31,8 @@ function App() {
       {/* <Modal /> */}
       {/* <GithubProfile /> */}
       {/* <AutoComplete /> */}
-      <Game />
+      {/* <Game /> */}
+      <ScrollToTopAndBottom />
     </div>
   );
 }

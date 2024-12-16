@@ -263,3 +263,23 @@
 .winner{
     margin: 20px 0 0 0;
 }
+
+/* scroll */
+
+.scroll{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.scroll div:hover{
+    border: solid 1px grey;
+    text-align: center;
+}
+
+.size{
+    position: sticky;
+    top:0;
+}
